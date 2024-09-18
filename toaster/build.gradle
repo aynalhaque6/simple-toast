@@ -2,6 +2,7 @@ plugins {
     id 'com.android.library'
 }
 
+
 android {
     namespace 'com.codecollection.toaster'
     compileSdk 34
@@ -23,7 +24,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+
 }
+
 
 dependencies {
 
