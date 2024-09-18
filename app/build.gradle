@@ -13,21 +13,6 @@ afterEvaluate {
         }
     }
 }
-/*
-publishing {
-    publications {
-        release(MavenPublication) {
-            from components.release // Use components.release for Android library
-            groupId = 'com.github.aynalhaque6' // Replace with your group ID
-            artifactId = 'git-test' // Replace with your artifact ID
-            version = '1.0' // Replace with your version
-        }
-    }
-    repositories {
-        mavenLocal() // Publish to the local Maven repository
-    }
-}
-*/
 
 android {
     namespace 'com.codecollection.githubtest'
